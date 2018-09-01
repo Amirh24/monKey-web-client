@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>monKey Generator </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Fonts -->
+    <!-- Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="static/css/themefisher-fonts.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body id="body" onload="init();">
+
+    <div id="preloader-wrapper">
+        <div class="pre-loader"></div>
+    </div>
+
+    <!-- 
+	    Introduction section  start
+	    ==================== -->
+    <section class="introduction-generator-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 hidden-sm-down">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="static/images/hero-left.svg" width="75%" alt="monkey left" id="monkey-left">
+                </div>
+                <div class="col-md-6 col-xs-12 text-center">
+                    <h1>
+                        <br>
+                        <b>monKey</b> Generator
+                    </h1>
+                    <br>
+                    <h2>Generate a
+                        <b>unique monkey</b> avatar
+                        <br> from a
+                        <b>Banano public key</b>
+                    </h2>
+                    <img src="https://bananomonkeys.herokuapp.com/image?address=ban_3tapge8i4kw9wa4irgda7epm4gaurr4rnp7ybjziphkt48afd6ba5pnaegs6"
+                        width="55%" height="55%" />
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-3 hidden-sm-down">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="static/images/hero-right.svg" width="65%" alt="monkey right" id="monkey-right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        What is section start
+        ==================== -->
+    <section class="what-is-and-why section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 hidden-sm-down">
+                    <img src="static/images/features-left.svg" class="img-fluid" width="75%" alt="features right" id="features-left">
+                </div>
+                <div class="col-md-4 text-center">
+                    <!-- <div class="content mt-100"> -->
+                    <div class="text-center">
+                        <h2> What is Banano?</h2>
+                    </div>
+                    <p>Banano is a feeless, instant and rich in potassium cryptocurrency powered by DAG technology that is designed
+                        to disrupt the meme economy.
+                        <br>
+                        <br>
+                    </p>
+                    <p>Banano is the first offical fork of the cryptocurrency NANO. It's purpose is to lower the technological
+                        entry-berriers of cryptocurrencies and thus make them accessible for everyone.
+                        <br>
+                        <br>
+                        <b>
+                            <a href="https://banano.co.in" target="_blank">Learn More</a>
+                            <br>
+                            <br>
+                        </b>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <!-- <div class="content mt-100"> -->
+                    <div class="text-center">
+                        <h2>What is a monKey?</h2>
+                    </div>
+                    <p>A monKey is a unique monkey-shaped avatar that is generated using a Banano public key.</p>
+                    <br>
+                    <p>Each monKey has a unique combination of fur color, eye color and additional accessories such as hats,
+                        glasses, shirts, pants, mouth types, tail decorations etc. The value of the accessories is classified
+                        into 3 categories: Basic (the ratio ranges from 1/2 to 1/32 monKeys), Rare (1/1024 monKeys) and Premium
+                        (1/10,240 monKeys). </p>
+                    <br>
+                    <p>
+                        <b>There are hundreds of billions of possible monKey combinations. Your monKey is unique, no one has
+                            the same monKey as you!</b>
+                    </p>
+                </div>
+                <div class="col-md-2 hidden-sm-down">
+                    <img src="static/images/features-right.svg" class="img-fluid" width="75%" alt="features right" id="features-right">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- 
+	    Generator section  start
+	    ==================== -->
+    <section class="introduction-generator section">
+        <div class="container">
+            <div class="heading">
+                <h2>Try It Now!</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 text-center">
+                    <p>Enter a Banano wallet address and press the "Generate monKey" button.</p>
+                    <br>
+                    <p>If you do not have a Banano wallet, easily create one
+                        <b>
+                            <a href="https://vault.banano.co.in" target="_blank">NOW</a>
+                        </b>.
+                        <br>
+                        <br>You can also generate a random public key for testing by pressing the "R" button.
+                        </br>
+                    </p>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-11 col-xs-9">
+                            <input type="text" class="form-control form-rounded" placeholder="Banano Address" maxlength="64" size="65" id="text-form">
+                        </div>
+                        <div class="col-sm-1 col-xs-3">
+                            <a href="javascript:;" onclick="inputARandomGeneratedAddress();">
+                                <button type="button" class="btn btn-success form-rounded" border>R</button>
+                            </a>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-2">
+                            <p>Addons:</p>
+                            <p>Format:</p>
+
+                        </div>
+                        <div class="checkbox col-md-3 col-xs-5">
+                            <label>
+                                <input type="checkbox" value="" id="addAccessories" checked>Accessories</label>
+                            <br>
+                            <input type="radio" name="optradio" id="SVGFormat" checked>SVG</label>
+
+                        </div>
+                        <div class="checkbox col-md-3 col-xs-5">
+                            <label>
+                                <input type="checkbox" value="" id="addBackground" checked>Background</label>
+                            <br>
+                            <input type="radio" name="optradio" id="PNGFormat">PNG</label>
+
+                        </div>
+                    </div>
+                    <br>
+                    <a href="javascript:;" onclick="submitForm();">
+                        <button type="button" class="btn btn-lg btn-success form-rounded" border>Generate monKey</button>
+                    </a>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-lg-2">
+                    <br>
+                </div>
+                <div class="col-lg-5 img-fluid" id="download-area">
+                    <img src=https://bananomonkeys.herokuapp.com/image?address=ban_3snn4ampq3z943r1rti36z45dnfr86ma7mrzbhrxgmftk5wp3msjmhijihtc&bg=t"
+                        id="generated-monKey" alt="monKey Image" href="#">
+                    <br>
+                    <div id="monKey-meta-data"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- 
+	    Testimonials section  start
+	    ==================== -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Testimonials</h2>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-block">
+                        <i class="tf-ion-quote"></i>
+                        <p>
+                            I think meme coins are hilarious. We have one, we have Banano. I like those guys
+                        </p>
+                        <div class="author-details">
+                            <img src="static/images/colin.jpg" alt="">
+                            <h4>Colin LeMahieu</h4>
+                            <span>Founder, Nano</span>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-block">
+                        <i class="tf-ion-quote"></i>
+                        <p>
+                            Vitalik clapping, Vitalik is impress
+                        </p>
+                        <div class="author-details">
+                            <img src="static/images/vitalik.png" alt="">
+                            <h4>Vitalik Buterin</h4>
+                            <span>Co-Founder, Ethereum</span>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-block">
+                        <i class="tf-ion-quote"></i>
+                        <p>
+                            How does it feel like to be loved, can someone explain?
+                        </p>
+                        <div class="author-details">
+                            <img src="static/images/pepe.png" alt="">
+                            <h4>not_idol</h4>
+                            <span>Developer, Banano</span>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+	    Gallery section  start
+	    ==================== -->
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Here Are Some Randomly Generated Funky monKeys</h2>
+                    </div>
+                    <div class="text-center">
+                        <p>Slide to view more</p>
+                    </div>
+                    <div class="gallery-slider text-center">
+                        <!-- <div class="row text-center"> -->
+                        <div class="block">
+                            <img class="" src="static/images/shader.svg" alt="" id="randomMonKey1">
+                            <div id="randomMonKeyAddress1">
+                                1
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img class="img-fluid" src="static/images/shader.svg" alt="" id="randomMonKey2">
+                            <div id="randomMonKeyAddress2">
+                                2
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img class="img-fluid" src="static/images/shader.svg" alt="" id="randomMonKey3">
+                            <div id="randomMonKeyAddress3">
+                                3
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img class="img-fluid" src="static/images/shader.svg" alt="" id="randomMonKey4">
+                            <div id="randomMonKeyAddress4">
+                                4
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img class="img-fluid" src="static/images/shader.svg" alt="" id="randomMonKey5">
+                            <div id="randomMonKeyAddress5">
+                                5
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img class="img-fluid" src="static/images/shader.svg" alt="" id="randomMonKey6">
+                            <div id="randomMonKeyAddress6">
+                                6
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Why section start
+        ==================== -->
+    <section class="what-is-and-why section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="">
+                    <h2>Why monKey</h2>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center">
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-star-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Super Easy</h4>
+                        <p>Anytime you need a monKey, just call the image endpoint that can be found in the
+                            <a href="https://github.com/Amirh24/monKey-server/wiki" target="_blank">documentations</a>.</p>
+                        <br>
+                    </div>
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-photos-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Multiple Image Formats</h4>
+                        <p>monKeys are suited for web applications as well as native applications by being generated in both
+                            SVG format and PNG format.</p>
+                        <br>
+                    </div>
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-pie-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Unthinkable Number Of Combinations</h4>
+                        <p>An RGB color ranges from (0,0,0) to (255,255,255). Therefore, there are 256^3 = 16,777,216 color
+                            options. By examining fur color and eye color generation we get 16,777,216^2 = 281,474,976,710,656
+                            monKey options. This is without even considering the 7 classes of accessories.</p>
+                        <br>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 hidden-sm-down">
+                    <img src="static/images/features-middle.svg" class="img-fluid" width="60%" alt="features right" id="features-left">
+                </div>
+
+
+                <div class="col-xs-6 col-md-4">
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-alarm-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Fast Loading Times</h4>
+                        <p>Thanks to a combination of AWS CloudFront, a custom made SVG parser and gzipped images, monKey generation
+                            is fast and suitable for web apps.</p>
+                        <br>
+                    </div>
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-cloud-download-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Third Party Data API</h4>
+                        <p>You can see and use your monKey's metadata. Just call the api endpoint that can be found in the
+                            <a href="https://github.com/Amirh24/monKey-server/wiki" target="_blank">documentations</a>.</p>
+                        <br>
+                    </div>
+                    <div class="feature-box">
+                        <i class="tf-ion-ios-barcode-outline" id="coreIcon"></i>
+                        <br>
+                        <br>
+                        <h4>Prevents Money Loss</h4>
+                        <p>It is very easy to mistake one public key for another as a typo in one or more characters in a 64
+                            character string is hardly visible by the human eye. A pictorial bip39 public key can prevent
+                            funds loss.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Footer section start
+        ==================== -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <a href="" class="footer-logo"></a>
+                        <ul class="menu">
+                            <li class=" active">
+                                <a href="http://reddit.com/r/bananocoin" target="_blank">Reddit</a>
+                            </li>
+                            <li class="">
+                                <a href="https://twitter.com/bananocoin" target="_blank">Twitter</a>
+                            </li>
+                            <li class="">
+                                <a href="http://tg.banano.how" target="_blank">Telegram</a>
+                            </li>
+                            <li class="">
+                                <a href="http://chat.banano.co.in" target="_blank">Discord</a>
+                            </li>
+                        </ul>
+                        <p class="copyright-text">Created by <a href="mailto:amirh18@gmail.com">Amir Hagafny</a>. Designed by <a href="mailto:ngyekta@gmail.com">Yekta Gungor</a>.</p>
+                        <p class="copyright-text">Copyright &copy;
+                            <a href="https://banano.co.in" target="_blank">Banano</a>| All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="static/js/banano.js"></script>
+    <script src="static/js/renderjson.js"></script>
+    <script src="static/js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+        crossorigin="anonymous"></script>
+    <script src="static/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/utils.js"></script>
+
+</body>
+
+</html>
